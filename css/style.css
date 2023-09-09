@@ -403,6 +403,19 @@ ul{
   margin-right: -10px;
 }
 
+.name {
+ 
+  text-align: center;
+  font-size: 12px;
+}
+.footer-copyright{
+  margin-bottom: 25px;
+  color: #ffff;
+  padding-top: 25px;
+}
+
+/* Adaptive */
+
 @media (max-width: 1240px){
   .info__inner{
     flex-wrap: wrap-reverse;
@@ -588,8 +601,10 @@ ul{
 @media (max-width: 375px){
   .button__text{
     
-    margin-left: -76px;
-    margin-bottom: 40px;
+    /*margin-left: -76px;*/
+    margin-bottom: 50px;
+  text-align: center;
+    
   }
   .title{
     margin-bottom: 40px;

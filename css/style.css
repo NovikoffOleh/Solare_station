@@ -72,13 +72,16 @@ ul{
 }
 
 .header__button{
+ 
   margin-top: 50px;
   margin-bottom: auto;
   align-self: center;
+  justify-content: space-around;
 }
 
-.button__path{
+.__path{
   transition: fill .5s;
+  
 }
 
 .button:hover .button__path{
@@ -88,9 +91,12 @@ ul{
 .button__text{
   font-size: 18px;
   line-height: 25px;
-  display: inline-block;
+  display: block;
   transform: translateY(-17px);
-  margin-left: -57px;
+  margin-left: 25px;
+  margin-top: 30px;
+  
+  
 }
 
 .social{
@@ -581,7 +587,9 @@ ul{
 
 @media (max-width: 375px){
   .button__text{
+    
     margin-left: -76px;
+    margin-bottom: 40px;
   }
   .title{
     margin-bottom: 40px;
